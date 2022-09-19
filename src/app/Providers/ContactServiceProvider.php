@@ -12,8 +12,6 @@ class ContactServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->addRelations();
-
         $this->defaultBootMethod();
     }
 

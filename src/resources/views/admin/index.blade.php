@@ -8,7 +8,7 @@
             'fields' => [
                 'project',
                 'from',
-                'body'
+                'body',
                 'linkToEdit',
             ],
             'data' => $contacts,
