@@ -1,0 +1,48 @@
+{
+    "minimum-stability": "dev",
+    "name": "laravia/contact",
+    "description": "laravia package: contact",
+    "license": "license",
+    "authors": [
+        {
+            "name": "laravia",
+            "email": "code@laravia.art",
+            "homepage": "https://laravia.art"
+        }
+    ],
+    "homepage": "https://laravia.art",
+    "keywords": [
+        "Laravel",
+        "Laravia",
+        "Package"
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravia\\Contact\\App\\": "./src/app",
+            "Laravia\\Contact\\Database\\": "./src/database",
+            "Laravia\\Contact\\Database\\Seeders\\": "./src/database/seeders"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laravia\\Contact\\App\\": "./src/app",
+            "Laravia\\Contact\\Database\\": "./src/database",
+            "Laravia\\Contact\\Database\\Seeders\\": "./src/database/seeders",
+            "Laravia\\Contact\\Tests\\": "./src/tests"
+        }
+    },
+    "scripts": {
+        "post-root-package-update": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravia\\Contact\\App\\Providers\\ContactServiceProvider"
+            ]
+        }
+    }
+}
