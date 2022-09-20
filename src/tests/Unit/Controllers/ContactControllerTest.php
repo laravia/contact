@@ -2,10 +2,8 @@
 
 namespace Laravia\Contact\Tests\Unit\Controllers;
 
-use App\Models\User;
 use Laravia\Contact\App\Http\Controllers\ContactController;
 use Laravia\Core\App\Classes\TestCase as LaraviaTestCase;
-use Laravia\User\App\Models\User as ModelsUser;
 use Laravia\User\App\Traits\UserTrait;
 use Faker\Factory as Faker;
 use Laravia\Contact\App\Models\Contact;
